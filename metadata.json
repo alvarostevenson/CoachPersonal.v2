@@ -1,0 +1,8 @@
+{
+  "name": "Coach Personal",
+  "description": "Programa híbrido de calistenia y carrera con temporizadores interactivos y guía de entrenamiento paso a paso.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
