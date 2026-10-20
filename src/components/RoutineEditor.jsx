@@ -256,6 +256,11 @@ export default function RoutineEditor({
                       <Clock className="w-3 h-3 mr-1" /> {action.duration}s
                     </span>
                   )}
+                  {action.type === 'info' && (
+                    <span className="flex items-center text-purple-300 font-medium">
+                      Info
+                    </span>
+                  )}
                   {action.instruction && (
                     <span className="truncate max-w-[150px] text-gray-400">· {action.instruction}</span>
                   )}

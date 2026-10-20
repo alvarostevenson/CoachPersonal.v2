@@ -84,7 +84,7 @@ export default function App() {
               <h1 className="text-lg font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent leading-none">
                 Coach Personal
               </h1>
-              <span className="text-[10px] text-gray-500 font-medium">Híbrido Calistenia & Carrera</span>
+              <span className="text-[10px] text-gray-500 font-medium">Fuerza, Carrera & Movilidad</span>
             </div>
           </div>
 

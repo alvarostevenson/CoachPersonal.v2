@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { DEFAULT_WORKOUTS } from '../data/defaultWorkouts';
 
-const STORAGE_KEY = 'coach_personal_workouts_v2';
+const STORAGE_KEY = 'coach_personal_workouts_v3';
 
 export function useWorkouts() {
   const [workouts, setWorkouts] = useState(() => {
